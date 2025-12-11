@@ -8,7 +8,7 @@ export default function LeanAnimatedTextSection() {
   const [isClient, setIsClient] = useState(false);
   useEffect(() => setIsClient(true), []);
 
-  function TextGenerateEffect({ words, className, duration = 0.6, staggerDelay = 0.12 }) {
+  function TextGenerateEffect({ words, className, duration = 0.6, staggerDelay = 0.12 }: { words: string; className?: string; duration?: number; staggerDelay?: number }) {
     const splitWords = words.split(" ");
     return (
       <motion.div
