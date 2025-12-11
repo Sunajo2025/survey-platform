@@ -64,7 +64,14 @@ export default function Navbar() {
 
           {/* Let's Talk Button (visible everywhere) */}
           <a
-            href="/contact"
+            href="#contact"
+            onClick={(e) => {
+              e.preventDefault();
+              const element = document.getElementById('contact');
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }}
             className="px-6 py-2 border border-white/30 rounded-full text-white text-sm hover:bg-white/10 transition md:block"
           >
             Let's Talk

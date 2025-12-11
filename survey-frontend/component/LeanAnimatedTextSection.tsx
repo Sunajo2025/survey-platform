@@ -55,7 +55,7 @@ export default function LeanAnimatedTextSection() {
   }, []);
 
   return (
-    <section className="relative w-full py-20 md:py-24 bg-black overflow-hidden flex justify-center items-center">
+    <section id="contact" className="relative w-full py-20 md:py-24 bg-black overflow-hidden flex justify-center items-center">
 
       {/* Animated background only on client */}
       {isClient && (
