@@ -58,9 +58,9 @@ export default function Footer() {
 
         <div className="flex justify-center gap-5 mt-8">
           {[ 
-            { icon: <Instagram size={20} />, link: "https://x.com/sunajo_official" },
-            { icon: <Linkedin size={20} />, link: "hhttps://www.linkedin.com/company/sunajo/" },
-            { icon: <Twitter size={20} />, link: "https://www.instagram.com/sunajo.in/" }
+            { icon: <Instagram size={20} />, link: "https://www.instagram.com/sunajo.in/" },
+            { icon: <Linkedin size={20} />, link: "https://www.linkedin.com/company/sunajo/" },
+            { icon: <Twitter size={20} />, link: "https://x.com/sunajo_official" }
           ].map((item, i) => (
             <a
               key={i}
