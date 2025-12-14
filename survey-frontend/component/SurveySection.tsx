@@ -152,7 +152,7 @@ export default function SurveySection() {
             <button
               type="submit"
               disabled={submitted || loading}
-              className={`px-14 py-4 rounded-full border transition
+              className={`px-14 py-4 rounded-full border transition cursor-pointer
                 ${submitted
                   ? 'bg-green-500/20 border-green-400 cursor-not-allowed'
                   : 'bg-white/10 border-white/20 hover:scale-105'
